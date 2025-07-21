@@ -14,7 +14,7 @@ async function fetchGuestToken() {
 export async function embed() {
 
   embedDashboard({
-    id: "55d11596-2fb0-4654-8d8e-de2a2ed2d2f3",
+    id: EMBEDDED_ID,
     mountPoint: document.getElementById("embedded-1")!,
     supersetDomain: "http://localhost:9000",
     fetchGuestToken: fetchGuestToken,
@@ -24,7 +24,7 @@ export async function embed() {
 
 
   embedDashboard({
-    id: "55d11596-2fb0-4654-8d8e-de2a2ed2d2f3",
+    id: EMBEDDED_ID,
     mountPoint: document.getElementById("embedded-2")!,
     supersetDomain: "http://localhost:9000",
     fetchGuestToken: fetchGuestToken,
@@ -33,7 +33,7 @@ export async function embed() {
   })
 
   embedDashboard({
-    id: "55d11596-2fb0-4654-8d8e-de2a2ed2d2f3",
+    id: EMBEDDED_ID,
     mountPoint: document.getElementById("embedded-3")!,
     supersetDomain: "http://localhost:9000",
     fetchGuestToken: fetchGuestToken,
@@ -42,7 +42,7 @@ export async function embed() {
   })
 
   embedDashboard({
-    id: "55d11596-2fb0-4654-8d8e-de2a2ed2d2f3",
+    id: EMBEDDED_ID,
     mountPoint: document.getElementById("embedded-4")!,
     supersetDomain: "http://localhost:9000",
     fetchGuestToken: fetchGuestToken,
