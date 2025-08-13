@@ -26,12 +26,7 @@ export const gruvbox = {
     },
     algorithm: 'dark',
   },
-  theme_settings: {
-    enforced: false,
-    allowSwitching: true,
-    allowOSPreference: true,
-  },
-}
+};
 
 export const kanagawa = {
   theme_default: {
@@ -61,12 +56,7 @@ export const kanagawa = {
     },
     algorithm: 'dark',
   },
-  theme_settings: {
-    enforced: false,
-    allowSwitching: true,
-    allowOSPreference: true,
-  },
-}
+};
 
 export const onedark = {
   theme_default: {
@@ -96,12 +86,7 @@ export const onedark = {
     },
     algorithm: 'dark',
   },
-  theme_settings: {
-    enforced: false,
-    allowSwitching: true,
-    allowOSPreference: true,
-  },
-}
+};
 
 export const tokyonight = {
   theme_default: {
@@ -131,14 +116,9 @@ export const tokyonight = {
     },
     algorithm: 'dark',
   },
-  theme_settings: {
-    enforced: false,
-    allowSwitching: true,
-    allowOSPreference: true,
-  },
-}
+};
 
-// Example theme with enforced settings
+// Example theme with no theme_dark (To enforced default theme)
 export const corporateTheme = {
   theme_default: {
     token: {
@@ -151,28 +131,4 @@ export const corporateTheme = {
       fontFamily: "'Roboto', sans-serif",
     },
   },
-  theme_dark: {
-    token: {
-      colorPrimary: '#4d9aff',
-      colorSuccess: '#4caf50',
-      colorWarning: '#ffb74d',
-      colorError: '#f44336',
-      colorInfo: '#2196f3',
-      colorTextBase: '#ffffff',
-      colorBgBase: '#121212',
-      colorBgContainer: '#1e1e1e',
-      colorBgLayout: '#121212',
-      colorBorder: '#333333',
-      colorTextSecondary: '#b3b3b3',
-      colorTextTertiary: '#666666',
-      colorSplit: '#333333',
-      fontFamily: "'Roboto', sans-serif",
-    },
-    algorithm: 'dark',
-  },
-  theme_settings: {
-    enforced: true,           // Enforces the Default theme
-    allowSwitching: false,    // Themes cannot be switch
-    allowOSPreference: false, // Ignore OS preference
-  },
-}
+};
