@@ -25,6 +25,11 @@ export async function auth(url: string, username: string, password: string) {
 
 
 export async function fetchGuestToken(url: string, tokenOptions: any, auth_headers: AxiosRequestConfig<any>) {
-  const resp = await axios.post(url, tokenOptions, auth_headers)
-  return resp.data["token"]
+  try {
+    const resp = await axios.post(url, tokenOptions, auth_headers)
+    return resp.data["token"]
+  } catch (error: any) {
+    console.error("Error Details:", error)
+    throw error
+  }
 }
