@@ -6,6 +6,8 @@ export const gruvbox = {
       colorWarning: '#d79921',
       colorError: '#cc241d',
       colorInfo: '#458588',
+      colorBgBase: '#fef9f3',
+      colorBgContainer: '#fcf6ee',
     },
   },
   theme_dark: {
@@ -36,6 +38,8 @@ export const kanagawa = {
       colorWarning: '#c4b28a',
       colorError: '#c4746e',
       colorInfo: '#8ba4b0',
+      colorBgBase: '#f0f8f5',
+      colorBgContainer: '#e8f4ee',
     },
   },
   theme_dark: {
@@ -66,6 +70,8 @@ export const onedark = {
       colorWarning: '#e5c07b',
       colorError: '#e06c75',
       colorInfo: '#61afef',
+      colorBgBase: '#f5fbfd',
+      colorBgContainer: '#eef8fb',
     },
   },
   theme_dark: {
@@ -96,6 +102,8 @@ export const tokyonight = {
       colorWarning: '#ffc777',
       colorError: '#ff757f',
       colorInfo: '#82aaff',
+      colorBgBase: '#f9f8fc',
+      colorBgContainer: '#f3f2f8',
     },
   },
   theme_dark: {

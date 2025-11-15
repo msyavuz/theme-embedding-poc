@@ -8,8 +8,8 @@ dotenv.config()
 const USERNAME = process.env.USERNAME!
 const PASSWORD = process.env.PASSWORD!
 const EMBEDDED_ID = process.env.EMBEDDED_ID!
-const GUEST_TOKEN_URL = "http://localhost:9000/api/v1/security/guest_token"
-const LOGIN_URL = "http://localhost:9000/api/v1/security/login"
+const GUEST_TOKEN_URL = process.env.GUEST_TOKEN_URL!
+const LOGIN_URL = process.env.LOGIN_URL!
 
 const app = express()
 
